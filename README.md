@@ -1,3 +1,3 @@
-<h1>
-  The backend API is built using Node.js and Socket.io to facilitate real-time, bidirectional communication between the server and clients. It operates on port 3002 and is configured with CORS to accept connections from any origin. Each new connection is assigned a unique socket.id to identify users. The API supports various events such as New message, which handles and broadcasts incoming messages to all connected clients, ensuring message synchronization across the chat application. The API is optimized for low latency and high concurrency, leveraging Socket.io's WebSocket protocol with fallback options to support a wide range of client environments.
-</h1>
+<p>
+  The backend API is built using Nest Js and Socket.io to facilitate real-time, bidirectional communication between the server and clients. It operates on port 3002 and is configured with CORS to accept connections from any origin. Each new connection is assigned a unique socket.id to identify users. The API supports various events such as New message, which handles and broadcasts incoming messages to all connected clients, ensuring message synchronization across the chat application. The API is optimized for low latency and high concurrency, leveraging Socket.io's WebSocket protocol with fallback options to support a wide range of client environments.
+</p>
